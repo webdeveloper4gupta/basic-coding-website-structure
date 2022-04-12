@@ -7,9 +7,13 @@
     <title>bootstrap4</title>
     <!-- here i include css of bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="style1.css">
     <!-- here i add attach font-awesome -->
     <script src="https://kit.fontawesome.com/c99c6c5fb2.js" crossorigin="anonymous"></script>
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--webfonts-->
+<link href='http://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
 </head>
 <body class="bg-light">
     <!-- here i will create header and navbar of mywebsite -->
@@ -43,11 +47,11 @@
             <li class="nav-item">
               <a class="nav-link m-2" href="about.html"><i class="fa fa-info">&nbsp;About</i>  </a>
             </li>
-           <li class="nav-item">
-               <a href="contact.html" class="nav-link m-2"><i class="fa fa-address-card">Contact</i></a>
-           </li>
            <li class="nav-item active">
-            <a Program href="" class="nav-link m-2"><i class="fa fa-code">&nbsp;Program</i>
+               <a href="" class="nav-link m-2"><i class="fa fa-address-card">Contact</i></a>
+           </li>
+           <li class="nav-item ">
+            <a Program href="program.html" class="nav-link m-2"><i class="fa fa-code">&nbsp;Program</i>
               </a>
         </li>
            </ul>
@@ -61,6 +65,132 @@
   </div>
       </div>
     </div>
+<!-- here i write the content of website page -->
+<div>
+    <div class="container my-3">
+        <div class="row">
+            <div class="col-12">
+                <img src="/images/OIP.jpeg" class="w-100" alt="contact" >
+            </div>
+        </div>
+       
+    </div>
+
+        <!-- here i add contact form -->
+        <div class="main my-5">
+            <div class="social-icons">
+                 <div class="col_1_of_f span_1_of_f"><a href="#">
+                    <ul class='facebook'>
+                        <i class="fb"> </i>
+                        <li>Connect with Facebook</li>
+                        <div class='clear'> </div>
+                    </ul>
+                    </a>
+                 </div>	
+                 <div class="col_1_of_f span_1_of_f"><a href="#">
+                    <ul class='twitter'>
+                      <i class="tw"> </i>
+                      <li>Connect with Twitter</li>
+                      <div class='clear'> </div>
+                    </ul>
+                    </a>
+                </div>
+                <div class="clear"> </div>	
+              </div>
+              <h2>Or Signup with</h2>
+                <form>
+                   <div class="lable">
+                        <div class="col_1_of_2 span_1_of_2">	<input type="text" class="text" value="First Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'First Name';}" id="active"></div>
+                        <div class="col_1_of_2 span_1_of_2"><input type="text" class="text" value="Last Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Last Name';}"></div>
+                        <div class="clear"> </div>
+                   </div>
+                   <div class="lable-2">
+                        <input type="text" class="text" value="your@email.com " onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'your@email.com ';}">
+                        <input type="password" class="text" value="Password " onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password ';}">
+                   </div>
+                   <h3>By creating an account, you agree to our <span class="term"><a href="#">Terms & Conditions</a></span></h3>
+                   <div class="submit">
+                      <input type="submit" onclick="myFunction()" value="Submit" >
+                   </div>
+                   <div class="clear"> </div>
+                </form>
+                <!-----//end-main---->
+                </div>
+
+    </div>
+ 
+
+<!-- here i add the footer -->
+<div>
+    <footer id="aman4">
+        <div class="container">
+
+            <div class="row">
+                <div class=" col-3 col-lg-4">
+                    <div class="list-group  bg-transparent" id="sukritan1">
+                        <h3 class="text-center text-primary"> Menu</h3>
+                        <a href=""
+                            class="list-group-item list-group-item-action bg-transparent text-light p-1 text-center ">
+                            <i class="fa fa-home ">&nbsp;Home</i>
+                        </a>
+                        <a href="about.html"
+                            class="list-group-item list-group-item-action bg-transparent text-light p-1 text-center">
+                            <i class="fa fa-info">&nbsp;About</i>
+                        </a>
+                        <a href="contact.html"
+                            class="list-group-item list-group-item-action bg-transparent text-light p-1 text-center"><i
+                                class="fa fa-address-card">&nbsp; Contact</i>
+                        </a>
+                        <a href="program.html"
+                            class="list-group-item list-group-item-action bg-transparent text-light p-1 text-center"><i
+                                class="fa fa-code">&nbsp; Program</i> </a>
+
+                    </div>
+                </div>
+                <div class="col-3 col-lg-4">
+                    <div class="list-group" id="sukritan2">
+                        <h3 class="text-center text-primary">Categories</h3>
+                        <a href="https://www.youtube.com/channel/UCoNIOBV9T5TJpbP3RNdK1XA"
+                           target="_blank" class="list-group-item list-group-item-action bg-transparent text-light text-center p-1">
+                            C++
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCoNIOBV9T5TJpbP3RNdK1XA"
+                          target="_blank"  class="list-group-item list-group-item-action bg-transparent text-light text-center p-1">
+                            C</a>
+                        <a href="https://www.youtube.com/channel/UCoNIOBV9T5TJpbP3RNdK1XA"
+                          target="_blank"  class="list-group-item list-group-item-action bg-transparent text-light text-center p-1">JAVA</a>
+                        <a href="https://www.youtube.com/channel/UCoNIOBV9T5TJpbP3RNdK1XA"
+                         target="_blank"   class="list-group-item list-group-item-action bg-transparent text-light text-center p-1">PYTHON</a>
+
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <div class="list-group" id="sukritan3">
+                        <h3 class="text-center text-primary">Social Media</h3>
+                        <a href="https://www.linkedin.com/in/sukritan-gupta-a38430219/" target="_blank"
+                            class="list-group-item list-group-item-action bg-transparent text-light text-center p-1">
+                            <i class="fa fa-linkedin">&nbsp;Linkedin </i>
+                        </a>
+                        <a href="https://twitter.com/1871_sukritan"
+                            class="list-group-item list-group-item-action bg-transparent text-light p-1 text-center"
+                            target="_blank"><i class="fa fa-twitter">&nbsp;Twitter</i>
+                        </a>
+                        <a href="https://www.instagram.com/sukritangupta4/?hl=en"
+                            class="list-group-item list-group-item-action bg-transparent text-light p-1 text-center"
+                            target="_blank"><i class="fa fa-instagram">&nbsp;Instagram</i> </a>
+                        <a href="https://www.facebook.com/profile.php?id=100028091140984"
+                            class="list-group-item list-group-item-action bg-transparent text-light p-1 text-center"
+                            target="_blank"><i class="fa fa-facebook">&nbsp;Facebook</i> </a>
+
+                    </div>
+
+                </div>
+            </div>
+            <hr color="white">
+            <div class="text-center text-light mt-2 ">Copyright &copy; by Sukritan gupta 2022</div>
+    </footer>
+</div>
+
 </body>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
