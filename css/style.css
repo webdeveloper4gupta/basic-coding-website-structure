@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#aman1{
+    margin-left:120px;
+}
+#row3{
+    display:none;
+}
+#more-option-button{
+    justify-content: center;
+}
+#aman4{
+  
+    background-color: #000;
+}
+#sukritan1 a:hover{
+color:red !important;
+}
+#sukritan2 a:hover{
+color:blue !important;
+}
+#sukritan3 a:hover{
+color:green !important;
+}
+#more-option{
+    display: none;
+}
+#am1 img{
+    width:150px;
+    }
+@media screen and (max-width:"600px") {
+    #am1 img{
+        width:250px !important;
+    }
+    
+}
